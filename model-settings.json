@@ -1,0 +1,10 @@
+{
+    "name": "langchain-model",
+    "implementation": "model.LangChainApp",
+    "parameters": {
+        "environment_tarball": "./langchain-model.tar.gz",
+        "extra": {
+            "openai_api_key": <openai_api_key>
+        }
+    }
+}
